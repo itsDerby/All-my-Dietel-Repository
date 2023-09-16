@@ -2,6 +2,14 @@ package Jonathan;
 
 public class Push {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int count = 0;
+        while (count < 5){
+
+            System.out.print("* ");
+            count ++;
+
+
+        }
+
     }
 }
