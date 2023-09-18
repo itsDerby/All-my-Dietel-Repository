@@ -1,11 +1,13 @@
 package ChibuzoAssignment;
 
-import ChibuzoAssignment.BackToSender;
+import ChibuzoAssignment.Function;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-class BackToSenderTest {
+public class FunctionTest {
+
     @Test
     public void testThatTheAccountExists(){
         Function function = new Function();

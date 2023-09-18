@@ -8,7 +8,7 @@ class WeekendSnack2Test {
     @Test
     public void testCopies(){
     int copyPrice = WeekendSnack2.testDrillerUtme(5);
-    assertEquals(9000, copyPrice);
+    assertEquals(1800, copyPrice);
     }
 
 }

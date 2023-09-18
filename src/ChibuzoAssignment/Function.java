@@ -1,6 +1,6 @@
 package ChibuzoAssignment;
 
-public class BackToSender {
+public class Function {
 
     public double collectionRate(int amount){
         if (amount < 0){
@@ -27,8 +27,3 @@ public class BackToSender {
 
     }
 }
-
-
-
-
-
