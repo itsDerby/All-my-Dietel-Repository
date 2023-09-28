@@ -35,6 +35,20 @@ public class MoreFunctionTest {
     }
     @Test
     public void testThatTheNumberCanDivide(){
+        double divide = MoreFunction.divide(25,0);
+        assertEquals(0, divide);
+
+    }
+    @Test
+    public void testThatTheNumberIsAFactorOf(){
+        int factor = MoreFunction.factor(10);
+        assertEquals(4,factor);
+
+    }
+    @Test
+    public void testThatTheNumberIsSquare(){
+        boolean square = MoreFunction.squareof(25);
+        assertTrue(square);
 
     }
 }
