@@ -24,8 +24,7 @@ public class NokiaPhoneApp {
         int userInputs = scanner.nextInt();
         switch (userInputs) {
             case 1:
-                System.out.println("""
-                                             
+                System.out.println("""                     
                         1. Search
                         2. Service Nos
                         3. Add Name
