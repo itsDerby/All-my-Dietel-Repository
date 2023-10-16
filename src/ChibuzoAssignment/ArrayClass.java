@@ -9,4 +9,5 @@ public class ArrayClass {
         }
         System.out.println(ages[count]);
     }
+
 }

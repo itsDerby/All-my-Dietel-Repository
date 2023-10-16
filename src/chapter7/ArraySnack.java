@@ -37,11 +37,15 @@ public class ArraySnack {
         }
         return result;
     }
-}
 
-//    public static int oddNumber(int[] odd) {
-//
-//    }
-//    }
+
+    public static int[] oddNumber(int[] odd) {
+        int[] array = new int [10];
+        for(int count = 0; count < odd.length; count+=2){
+            array[count] = odd[count];
+        }
+        return array;
+    }
+    }
 
 

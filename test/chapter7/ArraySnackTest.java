@@ -30,8 +30,9 @@ class ArraySnackTest {
     @Test
     public void testThatTheElementPrintsAnOddPosition(){
         int [] elements = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int [] odd = {2,4,6,8,10};
-        int result = ArraySnack.oddNumber(odd);
+        int [] odd = {1,0,3,0,5,0,7, 0, 9, 0};
+        int[] result = ArraySnack.oddNumber(elements);
+        assertArrayEquals(odd, result);
 
 
     }
